@@ -1,0 +1,281 @@
+body {
+ background-color: #FF9E00 ; 
+ font-family: Verdana, sans-serif; 
+ font-size: 100%;
+ }
+ h1 {
+ font-size: 40px;
+background-color: white; 
+ color: black; 
+ text-align: center;
+ font-family: Impact, sans-serif;
+ }
+
+h4 {
+	font-size: 20px; 
+	color: black; 
+	padding-left: 15px;
+	text-align: center;
+   font-family: Comic Sans MS, sans-serif;
+ }
+ 
+ p {
+	font-size: 20px; 
+	color: black; 
+	padding-left: 15px;
+	text-align: center;
+   font-family: Comic Sans MS, sans-serif;
+ }
+  h3 {
+ font-size: 40px; 
+ color: #0017FF; 
+ padding-left: 15px;
+  text-align: center;
+   font-family: impact ;
+  }
+ h5 {
+ font-size: 50px; 
+ color: white; 
+ padding-left: 15px;
+  text-align: center;
+   font-family: Comic Sans MS, sans-serif;
+  }
+
+img{
+ display: block;
+ margin: 0px auto;
+}
+
+}
+
+footer {
+	position:absolute;
+	bottom:0;
+}
+
+#lien{
+	background-color : orange;
+	text-decoration:none;
+	border : none ;
+	font-size : 50px;
+	color : white	;
+	display : inline-block ;
+	text-align : center ;
+}
+a{
+	text-decoration:none;
+	color:white
+}
+table {
+	text-align :center;
+	background-color : #3498DB;
+	color:white;
+}
+ul {
+	align: center;
+	text-align : center;
+}
+li {
+	align: center;
+	text-align : center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+  margin:  0 auto;
+  max-width: 250px;
+	
+  video {
+    width: 100%; 
+  }
+  
+  svg { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    text {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 50px;
+    }
+    
+    > rect {
+      -webkit-mask: url(#mask);
+      mask: url(#mask);
+    }
+    
+    rect {
+      fill: #fff;
+    }
+  }
+}
+ h1 {
+ font-size: 40px;
+background-color: white; 
+ color: grey; 
+ text-align: center;
+ font-family: Impact, sans-serif;
+ }
+
+h4 {
+	font-size: 20px; 
+	color: black; 
+	padding-left: 15px;
+	text-align: center;
+   font-family: Comic Sans MS, sans-serif;
+ }
+ 
+ p {
+	font-size: 20px; 
+	color: black; 
+	padding-left: 15px;
+	text-align: center;
+   font-family: Comic Sans MS, sans-serif;
+ }
+  h3 {
+ font-size: 20px; 
+ color: #0017FF; 
+ padding-left: 15px;
+  text-align: center;
+   font-family: 'Cookie', cursive;
+  }
+ h5 {
+ font-size: 50px; 
+ color: white; 
+ padding-left: 15px;
+  text-align: center;
+   font-family: Comic Sans MS, sans-serif;
+  }
+
+#lien{
+	background-color : orange;
+	text-decoration:none;
+	border : none ;
+	font-size : 50px;
+	color : white	;
+	display : inline-block ;
+	text-align : center ;
+}
+a{
+	text-decoration:none;
+	color:white
+}
+table {
+	text-align :center;
+	background-color : #3498DB;
+	color:white;
+}
+ul {
+	align: center;
+	text-align : center;
+}
+li {
+	align: center;
+	text-align : center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#text {
+  font-size: 6em;
+  line-height: 1em;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  &:hover {
+    cursor: default;
+  }
+  
+  .wrapper {
+    display: inline-block;
+    top: 0px;
+    position: center;
+    height: 50px; /* default */
+    width: 100px; /* default */
+    transition: ease 0.3s all;
+    
+    span {
+      position: absolute;
+      top:0;
+      right:0;
+
+      transition: ease 0.3s all;
+      
+      &.letter-2 {
+        color: #f9429e;
+      }
+
+      &.letter-1 {
+        color: black;
+        z-index: 1;
+        
+        &:hover {
+           top: -3px;
+           right: -3px;
+           
+           ~ .letter-2 {
+             top: 3px;
+             right: 3px;
+           }
+        }
+      }
+      
+      &.space {
+        padding: 0;
+        min-width: 10px;
+        display: inline-block;
+      }
+    }
+  }
+}
+.video {
+            position:relative; /* A rajouter pour que la balise video se place par rapport a la div.video et non au body même si dans notre cas ça ne change pas grand chose puisqu'on est en haut à gauche du site */
+            width:100%;
+            height:100vh;
+        }
+        .video video {
+            position:absolute;
+            top:0;
+            left:350;
+            width:650;
+            height:150;
+            object-fit: cover;
+        }
+        .video h1 {
+            position:absolute;
+            top:0;
+            left:350;
+            width:650;
+            height:150;
+            margin:0;
+            padding:0;
+            font-family: 'IMPACT';
+            font-weight:100;
+            font-size:12vw;
+            line-height: 1;
+            letter-spacing: 1vw;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color:black;
+            background:#fff;
+            mix-blend-mode: screen;
+            cursor:default;
+            pointer-events: none;
+        }
