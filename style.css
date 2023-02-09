@@ -251,7 +251,7 @@ li {
         .video video {
             position:absolute;
             top:0;
-            left:350;
+            left:500;
             width:650;
             height:150;
             object-fit: cover;
