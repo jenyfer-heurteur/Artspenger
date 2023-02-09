@@ -190,59 +190,6 @@ li {
 
 
 
-#text {
-  font-size: 6em;
-  line-height: 1em;
-  text-align: center;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  &:hover {
-    cursor: default;
-  }
-  
-  .wrapper {
-    display: inline-block;
-    top: 0px;
-    position: center;
-    height: 50px; /* default */
-    width: 100px; /* default */
-    transition: ease 0.3s all;
-    
-    span {
-      position: absolute;
-      top:0;
-      right:0;
-
-      transition: ease 0.3s all;
-      
-      &.letter-2 {
-        color: #f9429e;
-      }
-
-      &.letter-1 {
-        color: black;
-        z-index: 1;
-        
-        &:hover {
-           top: -3px;
-           right: -3px;
-           
-           ~ .letter-2 {
-             top: 3px;
-             right: 3px;
-           }
-        }
-      }
-      
-      &.space {
-        padding: 0;
-        min-width: 10px;
-        display: inline-block;
-      }
-    }
-  }
-}
 .video {
             position:relative;
 		width:100%;
