@@ -111,8 +111,8 @@ li {
             justify-content: center;
             align-items: center;
             text-align: center;
-            color:none;
-            background:none;
+            color:white;
+            background:white;
             mix-blend-mode: screen;
             cursor:default;
             pointer-events: none;
