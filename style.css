@@ -129,17 +129,17 @@ li {
         .video video {
             position:absolute;
             top:0;
-            left:0;
-            width:650;
-            height:150;
+            left:100;
+            width:800;
+            height:300;
             object-fit: cover;
         }
         .video h1 {
             position:absolute;
             top:0;
-            left:0;
-            width:650;
-            height:150;
+            left:100;
+            width:800;
+            height:300;
             margin:0;
             padding:0;
             font-family: 'IMPACT';
