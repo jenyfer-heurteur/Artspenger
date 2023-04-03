@@ -78,42 +78,28 @@ li {
 	align: center;
 	text-align : center;
 }
-
-
 .video {
-	    position:relative;
+            position:relative; /* A rajouter pour que la balise video se place par rapport a la div.video et non au body même si dans notre cas ça ne change pas grand chose puisqu'on est en haut à gauche du site */
             width:100%;
+            position:relative; 
+	     width:100%;
             height:100vh;
         }
         .video video {
             position:absolute;
             top:0;
             left:0;
-            width:100%;
-            height:100%;
+            left:0;
+            width:650;
+            height:150;
             object-fit: cover;
         }
         .video h1 {
             position:absolute;
             top:0;
+            left:350;
             left:0;
-            z-index:2; /* On peut supprmer ça, c'est inutile à la fin du tuto */
-            width:100%;
-            height:100%;
+            width:650;
+            height:150;
             margin:0;
-            padding:0;
-            font-family: 'Open Sans';
-            font-weight:800;
-            font-size:12vw;
-            line-height: 1;
-            letter-spacing: -0.7vw;
-            display:flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            color:white;
-            background:white;
-            mix-blend-mode: screen;
-            cursor:default;
-            pointer-events: none;
-        }
+}
