@@ -31,7 +31,7 @@ h4 {
  color: #0017FF; 
  padding-left: 15px;
   text-align: center;
-   font-family: impact ;
+   font-family: Verdana ;
   }
  h5 {
  font-size: 50px; 
@@ -128,7 +128,7 @@ li {
         .video video {
             position:absolute;
             top:0;
-            left:300;
+            left:350;
             width:650;
             height:150;
             object-fit: cover;
@@ -136,7 +136,7 @@ li {
         .video h1 {
             position:absolute;
             top:0;
-            left:300;
+            left:350;
             width:650;
             height:150;
             margin:0;
