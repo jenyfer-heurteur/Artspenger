@@ -128,7 +128,7 @@ li {
         .video video {
             position:absolute;
             top:0;
-            left:200;
+            left:300;
             width:650;
             height:150;
             object-fit: cover;
@@ -136,7 +136,7 @@ li {
         .video h1 {
             position:absolute;
             top:0;
-            left:200;
+            left:300;
             width:650;
             height:150;
             margin:0;
