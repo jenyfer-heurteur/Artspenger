@@ -156,3 +156,12 @@ li {
             cursor:default;
             pointer-events: none;
         }
+.square {
+        height: 200px;
+        width: 200px;
+        border-color:  #e6c619 #ccac00;
+        border-image: none;
+        border-radius: 0 0 0 0;
+        border-style: solid;
+        border-width: 30px;
+      }
